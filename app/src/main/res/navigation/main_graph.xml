@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/fragmentMain">
+
+    <fragment
+        android:id="@+id/fragmentMain"
+        android:name="ua.rodev.printectestapp.presentation.main.MainFragment"
+        >
+        <argument
+            android:name="lightBars"
+            android:defaultValue="false" />
+        <action
+            android:id="@+id/goSales"
+            app:destination="@id/fragmentSales" />
+        <action
+            android:id="@+id/goRefund"
+            app:destination="@id/fragmentRefund" />
+        <action
+            android:id="@+id/goSettings"
+            app:destination="@id/fragmentSettings" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentRefund"
+        android:name="ua.rodev.printectestapp.presentation.refund.RefundFragment" >
+        <argument
+            android:name="lightBars"
+            android:defaultValue="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentSettings"
+        android:name="ua.rodev.printectestapp.presentation.settings.SettingsFragment" >
+        <argument
+            android:name="lightBars"
+            android:defaultValue="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentSales"
+        android:name="ua.rodev.printectestapp.presentation.sales.SalesFragment">
+        <argument
+            android:name="lightBars"
+            android:defaultValue="false" />
+    </fragment>
+
+</navigation>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PrintecTestApp</string>
+    <string name="refund_screen_title">Refund</string>
+    <string name="sales_screen_title">Sales</string>
+    <string name="settings_screen_title">Settings</string>
+    <string name="minumum_amount">Minimum amount</string>
+    <string name="maximum_amount">Maximum amount</string>
+    <string name="placeholder_enter_amount">Enter amount</string>
+    <string name="placeholder_receipt_number">Enter the receipt number</string>
+    <string name="next">Next</string>
+    <string name="error_min_value">Min value is: %1$s</string>
+    <string name="error_max_value">Max value is: %1$s</string>
+    <string name="error_no_internet_connection">No internet connection</string>
+    <string name="transaction_success">Success transaction</string>
+    <string name="service_is_unavailable">Service is unavailable</string>
+    <string name="error_wrong_receipt_number">Wrong receipt number</string>
+    <string name="refund_success">Refund succeed</string>
+    <string name="communication_host_url">Communication Host URL:</string>
+</resources>
