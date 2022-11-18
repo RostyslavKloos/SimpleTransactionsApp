@@ -8,13 +8,13 @@ Stack of technologies:
 5. Navigation Component (navigation)
 
 Project sctucture: 
-MVVM
-Since there's no difficult business logic, no "interactor/use cases" were used.
-CloudDataSource:
-- return cloud data or proper domain exception
-Repository:
-- return mapped cloudToDomain data or ui error depends on domain exception
-ViewModel:
-- communicates with repository directly. 
-- handle returned data from repository.
-- handle ui input validations. (Sales screen)
+MVVM</br>
+(Since there's no difficult business logic, no "interactor/use cases" were used.)
+1. CloudDataSource:
+     * return cloud data or proper domain exception
+2. Repository
+     * return mapped cloudToDomain data or ui error depends on domain exception
+3. ViewModel:
+     * communicates with repository directly. 
+     * handle returned data from repository.
+     * handle ui input validations. (Sales screen)
